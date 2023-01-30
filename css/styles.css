@@ -1,0 +1,57 @@
+:root {
+  --main-accent-color: tomato;
+  --secondary-accent-color: teal;
+}
+
+body {
+  font-size: 16px;
+  color: #2a2a2a;
+  background-color: #eee;
+}
+
+.text {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.link {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 400;
+
+  color: goldenrod;
+}
+
+.link.is-current {
+  color: var(--main-accent-color);
+}
+
+a[href^="https://"]:hover,
+a[href^="https://"]:focus
+{
+  color: var(--main-accent-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a[href$=".ua"]:hover,
+a[href$=".ua"]:focus {
+  color: var(--secondary-accent-color);
+}
+
+.text.bold {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 700;
+
+  color: firebrick;
+}
+
+.text.italic-bold {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 700;
+
+  color: blueviolet;
+}
