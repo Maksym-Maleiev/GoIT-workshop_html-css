@@ -1,0 +1,43 @@
+/* Regular */
+
+@font-face {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amaranth-regular-webfont.woff") format("woff");
+  src: url("../fonts/amaranth-regular-webfont.woff2") format("woff2");
+}
+
+/* Italic */
+
+@font-face {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amaranth-italic-webfont.woff") format("woff");
+  src: url("../fonts/amaranth-italic-webfont.woff2") format("woff2");
+}
+
+/* Bold */
+
+@font-face {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/amaranth-bold-webfont.woff") format("woff");
+  src: url("../fonts/amaranth-bold-webfont.woff2") format("woff2");
+}
+
+/* Italic-Bold */
+
+@font-face {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/amaranth-bolditalic-webfont.woff") format("woff");
+  src: url("../fonts/amaranth-bolditalic-webfont.woff2") format("woff2");
+}
